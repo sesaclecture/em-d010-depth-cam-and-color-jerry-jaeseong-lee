@@ -8,7 +8,7 @@ import numpy as np
 #
 # OpenCV 함수를 활용하세요.
 def convert_to_hsv(image):
-    raise NotImplementedError
+    return cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 
 # 문제 2.
